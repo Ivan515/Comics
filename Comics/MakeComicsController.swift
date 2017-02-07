@@ -7,3 +7,24 @@
 //
 
 import Foundation
+import UIKit
+
+class MakeComicsController : UIViewController {
+    
+    @IBOutlet private weak var containerOfElements: UIView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    @IBAction func changeElementContainerHidden(segue: UIStoryboardSegue) {
+        
+        containerOfElements.isHidden = !containerOfElements.isHidden
+        
+    }
+    
+}

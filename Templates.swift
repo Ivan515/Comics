@@ -6,4 +6,9 @@
 //  Copyright © 2016 Andrey Apet. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Templates: UICollectionViewCell {
+    
+    @IBOutlet weak var button: UIButton!
+}

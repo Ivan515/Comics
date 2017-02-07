@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TemplateController.saveComicsToDB(nameComics : String) -&gt; ():TemplateController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "getScreenOfImageViewInArea(indexArea: i)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Imagesize.configureScrollView() -&gt; ():Imgasize.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -6,4 +6,12 @@
 //  Copyright © 2016 Andrey Apet. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import RealmSwift
+
+class PageDb: Object {
+    
+    var indexOfTemplate: Int = 999
+    var areas = List<Area>()
+    var elements = List<Elementdb>()
+}

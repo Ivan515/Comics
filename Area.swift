@@ -6,4 +6,10 @@
 //  Copyright © 2016 Andrey Apet. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import RealmSwift
+
+class Area: Object {
+    var content: NSData?
+    var path: Int = 0
+}

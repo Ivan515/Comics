@@ -6,4 +6,10 @@
 //  Copyright © 2016 Andrey Apet. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Galery: UICollectionViewCell {
+    
+    @IBOutlet weak var nameComics: UILabel!
+    @IBOutlet weak var imageTemplate: UIImageView!
+}

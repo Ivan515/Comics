@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "make_bg.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "backgroundTemplateImage.jpg",
       "scale" : "2x"
     },
     {

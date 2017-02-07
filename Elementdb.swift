@@ -6,4 +6,12 @@
 //  Copyright © 2016 Andrey Apet. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import RealmSwift
+
+class Elementdb: Object {
+    
+    var content: NSData?
+    var x: Float = 0
+    var y: Float = 0
+}
